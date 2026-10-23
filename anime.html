@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniVerse - Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <img src="images/logo.png" alt="AniVerse Logo" class="logo">
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="anime.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+    </nav>
+</header>
+
+<main>
+
+    <div class="search-box">
+        <input type="text" id="search-input" placeholder="Search anime products..." oninput="searchProducts()">
+        <button type="button" onclick="searchProducts()">Search</button>
+    </div>
+    <p id="no-results" style="display: none;">No products found.</p>
+
+<section class="products">
+
+    <h2>Anime Figures</h2>
+
+    <div class="product-card">
+        <img src="images/animefigure1.jpg" alt="Anime Figure 1">
+        <h3>ONEPIECE FIGURE</h3>
+        <p>Collectible anime figure for your collection.</p>
+        
+<a href="order.html?product=ONEPIECE&price=350" class="buy-button">
+    🛒 Buy - ₱350
+</a>
+    </div>
+
+<div class="product-card">
+    <img src="images/figure2.jpg" alt="Anime Figure 2">
+    <h3>DEMON SLAYER FIGURE</h3>
+    <p>Detailed figure for anime fans.</p>
+    <a href="order.html?product=DEMON%20SLAYER%20FIGURE&price=450" class="buy-button">🛒 Buy - ₱450</a>
+</div>
+
+<div class="product-card">
+    <img src="images/figure3.jpg" alt="Anime Figure 3">
+    <h3>JUJUTSU KAISEN FIGURE</h3>
+    <p>Fun collectible figure for your display.</p>
+    <a href="order.html?product=JUJUTSU%20KAISEN%20FIGURE&price=400" class="buy-button">🛒 Buy - ₱400</a>
+</div>
+
+<div class="product-card">
+    <img src="images/figure4.jpg" alt="Anime Figure 4">
+    <h3>NARUTO FIGURE</h3>
+    <p>Anime-inspired collectible figure.</p>
+    <a href="order.html?product=NARUTO%20FIGURE&price=500" class="buy-button">🛒 Buy - ₱500</a>
+</div>
+
+<h2>Anime Shirts</h2>
+
+<div class="product-card">
+    <img src="images/shirt1.jpg" alt="Anime Shirt 1">
+    <h3>NARUTO T-SHIRT</h3>
+    <p>Comfortable shirt with an anime-inspired design.</p>
+    <a href="order.html?product=NARUTO%20T-SHIRT&price=450" class="buy-button">🛒 Buy - ₱450</a>
+</div>
+
+<div class="product-card">
+    <img src="images/shirt2.jpg" alt="Anime Shirt 2">
+    <h3>DEMON SLAYER T-SHIRT</h3>
+    <p>Casual anime shirt for everyday wear.</p>
+    <a href="order.html?product=DEMON%20SLAYER%20T-SHIRT&price=450" class="buy-button">🛒 Buy - ₱450</a>
+</div>
+
+<div class="product-card">
+    <img src="images/shirt3.jpg" alt="Anime Shirt 3">
+    <h3>JUJUTSU KAISEN T-SHIRT</h3>
+    <p>Simple and stylish anime-themed shirt.</p>
+    <a href="order.html?product=JUJUTSU%20KAISEN%20T-SHIRT&price=450" class="buy-button">🛒 Buy - ₱450</a>
+</div>
+
+<div class="product-card">
+    <img src="images/shirt4.jpg" alt="Anime Shirt 4">
+    <h3>JUJUTSU KAISEN COLORED T-SHIRT</h3>
+    <p>Anime merchandise shirt for fans.</p>
+    <a href="order.html?product=JUJUTSU%20KAISEN%20COLORED%20T-SHIRT&price=550" class="buy-button">🛒 Buy - ₱550</a>
+</div>
+
+<h2>Manga</h2>
+
+<div class="product-card">
+    <img src="images/manga1.jpg" alt="Manga 1">
+    <h3>JUJUTSU KAISEN MANGA</h3>
+    <p>Enjoy reading an exciting manga collection.</p>
+    <a href="order.html?product=JUJUTSU%20KAISEN%20MANGA&price=250" class="buy-button">🛒 Buy - ₱250</a>
+</div>
+
+<div class="product-card">
+    <img src="images/manga2.jpg" alt="Manga 2">
+    <h3>NARUTO MANGA</h3>
+    <p>A great addition to your manga collection.</p>
+    <a href="order.html?product=NARUTO%20MANGA&price=280" class="buy-button">🛒 Buy - ₱280</a>
+</div>
+
+<div class="product-card">
+    <img src="images/manga3.jpg" alt="Manga 3">
+    <h3>JUNJI ITO MANGA</h3>
+    <p>Read more adventures from your favorite series.</p>
+    <a href="order.html?product=JUNJI%20ITO%20MANGA&price=300" class="buy-button">🛒 Buy - ₱300</a>
+</div>
+
+<div class="product-card">
+    <img src="images/manga4.jpg" alt="Manga 4">
+    <h3>ATTACK ON TITAN MANGA</h3>
+    <p>A fun manga book for anime fans.</p>
+    <a href="order.html?product=ATTACK%20ON%20TITAN%20MANGA&price=320" class="buy-button">🛒 Buy - ₱320</a>
+</div>
+
+<h2>Anime Keychains</h2>
+
+<div class="product-card">
+    <img src="images/keychain1.jpg" alt="Anime Keychain 1">
+    <h3>ONEPIECE KEYCHAIN</h3>
+    <p>Small anime accessory for your bag or keys.</p>
+    <a href="order.html?product=ONEPIECE%20KEYCHAIN&price=100" class="buy-button">🛒 Buy - ₱100</a>
+</div>
+
+<div class="product-card">
+    <img src="images/keychain2.jpg" alt="Anime Keychain 2">
+    <h3>NARUTO KEYCHAIN</h3>
+    <p>Colorful keychain for anime fans.</p>
+    <a href="order.html?product=NARUTO%20KEYCHAIN&price=120" class="buy-button">🛒 Buy - ₱120</a>
+</div>
+
+<div class="product-card">
+    <img src="images/keychain3.jpg" alt="Anime Keychain 3">
+    <h3>JUJUTSU KAISEN KEYCHAIN</h3>
+    <p>Lightweight anime-themed accessory.</p>
+    <a href="order.html?product=JUJUTSU%20KAISEN%20KEYCHAIN&price=100" class="buy-button">🛒 Buy - ₱100</a>
+</div>
+
+<div class="product-card">
+    <img src="images/keychain4.jpg" alt="Anime Keychain 4">
+    <h3>BLEACH KEYCHAIN</h3>
+    <p>Fun collectible keychain for your collection.</p>
+    <a href="order.html?product=BLEACH%20KEYCHAIN&price=150" class="buy-button">🛒 Buy - ₱150</a>
+</div>
+
+<h2>Anime Posters</h2>
+
+<div class="product-card">
+    <img src="images/poster1.jpg" alt="Anime Poster 1">
+    <h3>CHAINSAW MAN POSTER</h3>
+    <p>Anime poster for decorating your room.</p>
+    <a href="order.html?product=CHAINSAW%20MAN%20POSTER&price=150" class="buy-button">🛒 Buy - ₱150</a>
+</div>
+
+<div class="product-card">
+    <img src="images/poster2.jpg" alt="Anime Poster 2">
+    <h3>HAIKYU POSTER</h3>
+    <p>Colorful poster for anime fans.</p>
+    <a href="order.html?product=HAIKYU%20POSTER&price=180" class="buy-button">🛒 Buy - ₱180</a>
+</div>
+
+<div class="product-card">
+    <img src="images/poster3.jpg" alt="Anime Poster 3">
+    <h3>JUJUTSU KAISEN POSTER</h3>
+    <p>Stylish anime-themed wall poster.</p>
+    <a href="order.html?product=JUJUTSU%20KAISEN%20POSTER&price=150" class="buy-button">🛒 Buy - ₱150</a>
+</div>
+
+<div class="product-card">
+    <img src="images/poster4.jpg" alt="Anime Poster 4">
+    <h3>SAKAMOTO DAYS POSTER</h3>
+    <p>Decorative poster for your anime space.</p>
+    <a href="order.html?product=SAKAMOTO%20DAYS%20POSTER&price=200" class="buy-button">🛒 Buy - ₱200</a>
+</div>
+
+    
+
+</section>
+
+<section class="ratings">
+
+    <h2>Rate Our Products</h2>
+
+    <p>How would you rate your experience?</p>
+
+    <form>
+        <label for="rating">Your Rating:</label>
+        <select id="rating" name="rating">
+            <option value="5">★★★★★ - Excellent</option>
+            <option value="4">★★★★☆ - Very Good</option>
+            <option value="3">★★★☆☆ - Good</option>
+            <option value="2">★★☆☆☆ - Fair</option>
+            <option value="1">★☆☆☆☆ - Poor</option>
+        </select>
+
+        <br><br>
+
+        <label for="comment">Your Comment:</label><br>
+        <textarea id="comment" name="comment" rows="4" cols="40"
+            placeholder="Write your feedback here..."></textarea>
+
+        <br><br>
+
+        <button type="submit">Submit Rating</button>
+    </form>
+
+</section>
+</main>
+
+  <footer>
+    <p>AniVerse - Anime, Manga & Merchandise</p>
+    <p>Copyright © 2026 | Created by Benladin S. Kayoh</p>
+  </footer>
+  </body>
+</html>
+
